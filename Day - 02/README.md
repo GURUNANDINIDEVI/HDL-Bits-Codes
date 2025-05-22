@@ -24,4 +24,4 @@ going to implement an inverter (or "NOT-gate") instead of a plain wire.
 
 Logic I Used:
 
-As the output is opposite to the input , I made nagation(~) to the input and assigned it to the output
+As the output is opposite to the input , I made nagation(~) to the input and assigned it to the output.
