@@ -5,6 +5,7 @@
 Create a module that implements an XNOR gate.
 
 🧠Logic I Used:
+
 The output expression for X-Nor gate if a,b are inputs and out is the output
 
 out = ~(a ^ b)
@@ -19,5 +20,6 @@ NOT gate is really wire out,so you do not necessarily need to declare a third wi
 If you're following the circuit structure in the diagram, you should end up with four assign statements, as there are four signals that need a value assigned.
 
 🧠Logic I Used:
+
 I declared the inside parameters of the circuit as wires .
 I assigned the AND gate and OR gate as per the circuits .
