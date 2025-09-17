@@ -1,0 +1,14 @@
+//T.Guru Nandini Devi
+//nandinidevitekumudi@gmail.com
+module top_module (
+    input clk,
+    input d, 
+    input ar,   // asynchronous reset
+    output q);
+    always@(posedge clk or posedge ar)begin
+        if(ar)
+            q<=1'd0;
+        else
+            q<=d;
+    end
+endmodule
